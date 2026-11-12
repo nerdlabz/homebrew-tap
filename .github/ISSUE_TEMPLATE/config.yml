@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A problem with Evado itself
+    url: https://github.com/nerdlabz/evado-tui/issues
+    about: Once Evado is installed, report bugs and ideas in its own repository.
+  - name: Report a security problem
+    url: https://github.com/nerdlabz/evado-tui/security/advisories/new
+    about: Please report vulnerabilities privately, not in a public issue.
