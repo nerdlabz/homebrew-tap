@@ -6,26 +6,26 @@ class Evado < Formula
   on_macos do
     on_arm do
       depends_on arch: :arm64
-      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.0.1/evado_1.0.1_darwin_arm64.tar.gz"
-      sha256 "583c773987785751c718fc797ea314c68de966c67708c6173ba9a6943b68e7ae"
+      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.1.0/evado_1.1.0_darwin_arm64.tar.gz"
+      sha256 "d2e631162661fd31ad61a580c1c38328dd0e37e9616b5fcc075758718f62739b"
     end
     on_intel do
       depends_on arch: :x86_64
-      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.0.1/evado_1.0.1_darwin_amd64.tar.gz"
-      sha256 "18191b2659eac0d59b24886040fe48e14a8c4def266a8995ac3713bd290f4c7b"
+      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.1.0/evado_1.1.0_darwin_amd64.tar.gz"
+      sha256 "9620e84c716d252a61b51a7319ae8658bf7674035ea044ad6052de2379af73d5"
     end
   end
 
   on_linux do
     on_arm do
       depends_on arch: :arm64
-      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.0.1/evado_1.0.1_linux_arm64.tar.gz"
-      sha256 "188cc8313a8f39d5d1115074cd3e6f4e6dd73abe5e5f21b5fccb60d9651afc68"
+      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.1.0/evado_1.1.0_linux_arm64.tar.gz"
+      sha256 "cee70cc7eb619fedb73725be6758272e1c66047eea0073da88d6740a414d0c0c"
     end
     on_intel do
       depends_on arch: :x86_64
-      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.0.1/evado_1.0.1_linux_amd64.tar.gz"
-      sha256 "4b7d3ddcc842319bd2ce7c6e04f8759792687d6e90824b9789417cefbb362be4"
+      url "https://github.com/nerdlabz/evado-tui/releases/download/v1.1.0/evado_1.1.0_linux_amd64.tar.gz"
+      sha256 "a23c8d0dd46ec66866fc0ee018cbb5bdd5c6b9f9a178aed6a3febeeb49e39d51"
     end
   end
 
